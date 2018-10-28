@@ -8,7 +8,7 @@ width: 100%;
 }
 
 h1 {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif, extra-light;
   font-size: 18px;
   text-align: left;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif, extra-light;
   font-size: 15px;
   text-align: left;
@@ -40,7 +40,7 @@ p {
 }
 
 a {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif, extra-light;
   font-size: 12px;
   font-weight: bold;
@@ -50,12 +50,12 @@ a {
 
 a:link {
     text-decoration: none;
-    color: #00cccc;
+    color: #669999;
 }
 
 a:visited {
     text-decoration: none;
-    color: #00cccc;
+    color: #669999;
 }
 
 a:hover {
@@ -65,12 +65,10 @@ a:hover {
 
 a:active {
     text-decoration: none;
-    color: #00cccc;
+    color: #669999;
 }
 
 img {
-  height: auto;
-  width: 100%
   padding-top: 10px;
   padding-bottom: 2px;
   margin-bottom: 10px;
@@ -100,8 +98,9 @@ filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .item {
-  justify-content: space-between
+  justify-content: space-evenly;
   text-align: left;
+  width: auto;
 }
 
 .menu {
@@ -137,6 +136,19 @@ li {
   width: 100%;
 }
 
+.star {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.three_stars {
+  align-items: center;
+  justify-content: space-around;
+  color:  #669999;
+}
+
 @media (max-width: 600px) {
 body {
   background-color: #e0ebeb;
@@ -148,7 +160,7 @@ body {
 }
 
 h1 {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif, extra-light;
   font-size: 18px;
   text-align: left;
@@ -160,7 +172,7 @@ h1 {
 }
 
 h2 {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif, extra-light;
   font-size: 15px;
   text-align: left;
@@ -185,7 +197,7 @@ p {
 }
 
 ul {
-  color:  #293d3d;
+  color:  #669999;
   font-family: verdana;
   font-size: 12px;
   text-align: left;
@@ -196,7 +208,7 @@ ul {
   margin-right: 5px;
 }
 a {
-  color:  #293d3d;
+  color:  #669999;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -206,11 +218,12 @@ a {
 
 a:link {
     text-decoration: none;
+    color: #669999;
 }
 
 a:visited {
     text-decoration: none;
-    color: #00cccc;
+    color: #669999;
 }
 
 a:hover {
@@ -220,6 +233,7 @@ a:hover {
 
 a:active {
     text-decoration: none;
+    color: #669999;
 }
 
 img {
@@ -233,7 +247,7 @@ img {
 .box {
   display: block;
   align-items: center;
-  justify-content: space-between center;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -272,7 +286,20 @@ li {
   align-content: flex-end;
   align-items: left;
   justify-content: space-around;
+  width: 50%;
+}
+
+.star {
+  display: block;
+  align-content: center;
+  justify-content: space-around;
   width: 100%;
+}
+
+.three_stars {
+  align-items: center;
+  justify-content: space-around;
+  color:  #669999;
 }
 
 }
